@@ -18,19 +18,19 @@
 	<a href="index.php">Home</a>
 	<br/><br/>
 	
-	<form name="form1" method="post" action="update.php">
+	<form name="mahasiswa" method="post" action="update.php">
 		<table border="0">
 			<tr> 
 				<td>Nama</td>
-				<td><input type="text" name="nama" value=<?php echo $data['nama']; ?>></td>
+				<td><input type="text" name="nama" value="<?php echo $data['nama']; ?>"></td>
 			</tr>
 			<tr> 
 				<td>Alamat</td>
-				<td><input type="text" name="alamat" value=<?php echo $data['alamat']; ?>></td>
+				<td><input type="text" name="alamat" value="<?php echo $data['alamat']; ?>"> </td>
 			</tr>
 			<tr> 
 				<td>Jurusan</td>
-				<td><input type="text" name="jurusan" value=<?php echo $data['jurusan']; ?>></td>
+				<td><input type="text" name="jurusan" value="<?php echo $data['jurusan']; ?>"></td>
 			</tr>
 			<tr>
 				<td><input type="hidden" name="id" value=<?php echo $id; ?>></td>
